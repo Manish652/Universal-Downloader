@@ -20,7 +20,7 @@ const UniversalDownloader = () => {
   const [isUrlFocused, setIsUrlFocused] = useState(false);
   
   const containerRef = useRef(null);
-  const API_BASE = 'http://localhost:4000';
+  const API_BASE = 'https://universal-downloader-backend-5wzk.onrender.com';
 
   // Floating particles animation effect
   
